@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Forense • Miguel A. Álvarez Rubio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+    <div class="profile-section">
+        <img src="assets/profile.jpg" alt="Foto de perfil" class="profile-img" />
+        <h1>Miguel Ángel Álvarez Rubio</h1>
+        <p>Perito en Informática • Forensia Digital • Ciberseguridad</p>
+    </div>
+</header>
+
+<nav class="navbar">
+    <a href="#perfil">Perfil</a>
+    <a href="#dictamenes">Dictámenes</a>
+    <a href="#certificaciones">Certificaciones</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="perfil" class="section">
+    <h2>Perfil Profesional</h2>
+    <p>
+        Perito en informática con experiencia en análisis forense digital, preservación de evidencia,
+        extracción de metadatos, evaluación técnica CONOCER y procesamiento especializado para investigaciones.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Áreas de Especialidad</h3>
+            <ul>
+                <li>Análisis Forense Digital</li>
+                <li>Preservación de Evidencia</li>
+                <li>Ciberseguridad y Phishing</li>
+                <li>Extracción de Metadatos</li>
+                <li>Inteligencia Artificial aplicada</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Herramientas</h3>
+            <ul>
+                <li>Autopsy</li>
+                <li>FTK Imager</li>
+                <li>Wireshark</li>
+                <li>Python Forense</li>
+                <li>OpenCV / Scikit-Learn</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="dictamenes" class="section alt">
+    <h2>Dictámenes y Casos Relevantes</h2>
+
+    <div class="list">
+        <div class="item">
+            <h3>Análisis de dispositivo móvil</h3>
+            <p>
+                Extracción de evidencia, reconstrucción de mensajes y análisis de patrones sospechosos.
+            </p>
+        </div>
+
+        <div class="item">
+            <h3>Dictamen de autenticidad de documentos</h3>
+            <p>
+                Validación digital mediante hashes, metadatos y estructura interna.
+            </p>
+        </div>
+
+        <div class="item">
+            <h3>Investigación de fraude digital</h3>
+            <p>
+                Rastreo de actividad sospechosa, correos phishing y correlación de datos.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="certificaciones" class="section">
+    <h2>Certificaciones</h2>
+
+    <ul class="cert-list">
+        <li>CONOCER • Evaluación y Certificación de Competencias</li>
+        <li>Ciberseguridad • Análisis Forense Digital</li>
+        <li>Python Avanzado para Investigación Digital</li>
+        <li>Investigación pericial aplicada</li>
+    </ul>
+</section>
+
+<section id="contacto" class="section alt">
+    <h2>Contacto</h2>
+
+    <div class="contact-box">
+        <p>
+            📧 <strong>Email:</strong> miguerubio01@gmail.com <br/>
+            📱 <strong>Teléfono:</strong> +52 4437136932
+        </p>
+        <button onclick="downloadCV()">Descargar CV</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 • Portafolio Forense — Miguel A. Álvarez Rubio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
